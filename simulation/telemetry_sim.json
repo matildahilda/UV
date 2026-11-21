@@ -1,0 +1,102 @@
+[
+  {
+    "aircraft_id": "SIM-01 (fictional)",
+    "status": "SIMULATED — IDLE",
+    "timestamp_utc": "2026-11-21T19:28:16.466160+00:00",
+    "mission_id": "M-07 (fictional)",
+    "mode": "CONCEPTUAL LOFT PROFILE (SIMULATED)",
+    "altitude_m": 24.2,
+    "ground_speed_m_s": 0.5,
+    "battery_pct": 81.7,
+    "flight_time_s": 0.0,
+    "heading_deg": -15.2,
+    "system_health": {
+      "battery": 91.2,
+      "avionics": 95.6,
+      "payload": 89.6,
+      "communications": 98.0,
+      "navigation": 94.1
+    },
+    "notes": "All values are simulated/fictional for visualization and dashboard development. Not real telemetry. Not connected to any real aircraft, sensor, or control hardware."
+  },
+  {
+    "aircraft_id": "SIM-01 (fictional)",
+    "status": "SIMULATED — IDLE",
+    "timestamp_utc": "2026-11-21T19:28:16.466491+00:00",
+    "mission_id": "M-07 (fictional)",
+    "mode": "CONCEPTUAL LOFT PROFILE (SIMULATED)",
+    "altitude_m": 28.1,
+    "ground_speed_m_s": 4.1,
+    "battery_pct": 84.8,
+    "flight_time_s": 30.0,
+    "heading_deg": 2.4,
+    "system_health": {
+      "battery": 92.4,
+      "avionics": 96.4,
+      "payload": 91.2,
+      "communications": 98.4,
+      "navigation": 94.9
+    },
+    "notes": "All values are simulated/fictional for visualization and dashboard development. Not real telemetry. Not connected to any real aircraft, sensor, or control hardware."
+  },
+  {
+    "aircraft_id": "SIM-01 (fictional)",
+    "status": "SIMULATED — IDLE",
+    "timestamp_utc": "2026-11-21T19:28:16.466509+00:00",
+    "mission_id": "M-07 (fictional)",
+    "mode": "CONCEPTUAL LOFT PROFILE (SIMULATED)",
+    "altitude_m": 32.1,
+    "ground_speed_m_s": 7.6,
+    "battery_pct": 87.9,
+    "flight_time_s": 60.0,
+    "heading_deg": 20.1,
+    "system_health": {
+      "battery": 93.6,
+      "avionics": 97.2,
+      "payload": 92.7,
+      "communications": 98.8,
+      "navigation": 95.7
+    },
+    "notes": "All values are simulated/fictional for visualization and dashboard development. Not real telemetry. Not connected to any real aircraft, sensor, or control hardware."
+  },
+  {
+    "aircraft_id": "SIM-01 (fictional)",
+    "status": "SIMULATED — IDLE",
+    "timestamp_utc": "2026-11-21T19:28:16.466525+00:00",
+    "mission_id": "M-07 (fictional)",
+    "mode": "CONCEPTUAL LOFT PROFILE (SIMULATED)",
+    "altitude_m": 36.0,
+    "ground_speed_m_s": 11.1,
+    "battery_pct": 91.1,
+    "flight_time_s": 90.0,
+    "heading_deg": 37.7,
+    "system_health": {
+      "battery": 94.8,
+      "avionics": 98.0,
+      "payload": 86.3,
+      "communications": 97.2,
+      "navigation": 92.5
+    },
+    "notes": "All values are simulated/fictional for visualization and dashboard development. Not real telemetry. Not connected to any real aircraft, sensor, or control hardware."
+  },
+  {
+    "aircraft_id": "SIM-01 (fictional)",
+    "status": "SIMULATED — IDLE",
+    "timestamp_utc": "2026-11-21T19:28:16.466536+00:00",
+    "mission_id": "M-07 (fictional)",
+    "mode": "CONCEPTUAL LOFT PROFILE (SIMULATED)",
+    "altitude_m": 39.9,
+    "ground_speed_m_s": -3.4,
+    "battery_pct": 78.2,
+    "flight_time_s": 120.0,
+    "heading_deg": -34.6,
+    "system_health": {
+      "battery": 89.9,
+      "avionics": 94.8,
+      "payload": 87.9,
+      "communications": 97.5,
+      "navigation": 93.3
+    },
+    "notes": "All values are simulated/fictional for visualization and dashboard development. Not real telemetry. Not connected to any real aircraft, sensor, or control hardware."
+  }
+]

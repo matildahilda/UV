@@ -1,0 +1,15 @@
+graph LR
+    AF[Airframe]
+    PM[Power Management]
+    CP[Computing]
+    SN[Sensors]
+    CM[Communications]
+    OI[Operator Interface]
+    Airframe --> Power Management
+    Power Management --> Computing
+    Computing --> Sensors
+    Sensors --> Communications
+    Communications --> Operator Interface
+    OI -.-> AF
+    classDef concept fill:#10293D,stroke:#A8D6F0,color:#E6F3FF,stroke-width:1.5px;
+    class AF,PM,CP,SN,CM,OI concept;

@@ -1,0 +1,226 @@
+/* style.css — aerospace-inspired dashboard styles (SIMULATED visual theme).
+
+Every visual element shown in this dashboard is a mock-up. All telemetry
+values are artificial and marked SIMULATED.
+*/
+
+:root {
+  --bg: #0A1E2F;
+  --panel: #10293D;
+  --line: #E6F3FF;
+  --accent: #A8D6F0;
+  --muted: #7D9FB8;
+  --font: "Consolas", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: var(--line);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.app-header {
+  padding: 24px 32px;
+  border-bottom: 1px solid var(--line);
+}
+
+.app-header h1 {
+  margin: 0 0 4px;
+  font-size: 26px;
+  letter-spacing: 3px;
+  color: var(--line);
+}
+
+.app-header .subtitle {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.sim-banner {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  font-size: 11px;
+  color: var(--accent);
+  background: rgba(168, 214, 240, 0.08);
+}
+
+.dashboard {
+  padding: 24px 32px;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  align-items: start;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+.card h2 {
+  margin: 0 0 12px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: var(--line);
+}
+
+/* Simulated aircraft status card */
+.status-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.status-grid div {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-grid dt {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+
+.status-grid dd {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--line);
+}
+
+/* Fictional status display */
+.display {
+  background: rgba(14, 42, 63, 0.7);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 12px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.display-line {
+  color: var(--accent);
+  padding: 2px 0;
+}
+
+/* Aerial observation feed placeholder */
+.feed-frame {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border: 1px dashed var(--line);
+  border-radius: 4px;
+  background: rgba(14, 42, 63, 0.55);
+  margin-bottom: 8px;
+}
+
+.feed-frame img {
+  width: 170px;
+  height: auto;
+  opacity: 0.75;
+}
+
+.feed-label {
+  position: absolute;
+  font-size: 11px;
+  color: var(--accent);
+  text-align: center;
+  padding: 6px 10px;
+  background: rgba(14, 42, 63, 0.9);
+}
+
+.feed-note {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 8px 0 0;
+}
+
+/* System health visualization */
+.health-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.meter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.meter label {
+  width: 132px;
+  font-size: 12px;
+  color: var(--accent);
+}
+
+.meter .bar {
+  flex: 1;
+  height: 12px;
+  background: #0D2A3C;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.meter .bar span {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #7FD1FF, #A8D6F0);
+  transition: width 0.5s ease-out;
+}
+
+.meter .pct {
+  width: 46px;
+  font-size: 12px;
+  text-align: right;
+  color: var(--line);
+}
+
+.app-footer {
+  padding: 18px 32px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.app-footer a {
+  color: var(--accent);
+}
+
+.footer-links {
+  margin-top: 6px;
+}

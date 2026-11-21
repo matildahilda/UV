@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UAV Concept Lab — Simulated Aircraft Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>UAV Concept Lab</h1>
+    <p class="subtitle">Concept Visualization — Simulation-Interface Demonstration</p>
+    <div class="sim-banner" role="alert">
+      SIMULATED — NOT CONNECTED TO ANY REAL AIRCRAFT, SENSOR, OR CONTROL HARDWARE
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="card status-card">
+      <h2>Simulated Aircraft Status</h2>
+      <dl class="status-grid">
+        <div><dt>Aircraft ID</dt><dd id="aircraftId">SIM-01 (fictional)</dd></div>
+        <div><dt>Status</dt><dd id="status">SIMULATED — IDLE</dd></div>
+        <div><dt>Mission / Mode</dt><dd id="mode">MISSION-07 (fictional)</dd></div>
+        <div><dt>Altitude (SIM)</dt><dd id="altitude">0.0 m</dd></div>
+        <div><dt>Ground Speed (SIM)</dt><dd id="speed">0.0 m/s</dd></div>
+        <div><dt>Battery (SIM)</dt><dd id="battery">100%</dd></div>
+        <div><dt>Flight Time (SIM)</dt><dd id="flightTime">0 min 0 s</dd></div>
+        <div><dt>Heading (SIM)</dt><dd id="heading">0.0 deg</dd></div>
+      </dl>
+    </section>
+
+    <section class="card status-display">
+      <h2>Fictional Status Display (SIMULATED)</h2>
+      <div class="display" id="display">
+        <div class="display-line">MISSION: M-07 (FICTIONAL) — SIMULATED</div>
+        <div class="display-line">PROFILE: CONCEPTUAL LOFT PROFILE — SIMULATED</div>
+        <div class="display-line">UPLINK: AVAILABLE — SIMULATED FEED PLACEHOLDER</div>
+        <div class="display-line" id="displayClock">TIME: 00:00:00 — SIMULATED</div>
+      </div>
+    </section>
+
+    <section class="card feed">
+      <h2>Aerial Observation Feed — Visual Placeholder (SIMULATED)</h2>
+      <div class="feed-frame">
+        <img class="feed-silhouette" src="../../assets/uav_silhouette.svg"
+             alt="Aerial observation feed placeholder — conceptual UAV silhouette (simulated)">
+        <div class="feed-label">SIMULATED FEED — NO LIVE DATA</div>
+      </div>
+      <p class="feed-note">
+        Fictional placeholder for an aerial observation feed. This is a visual demonstration
+        only — nothing here connects to a live source, and all data shown is simulated.
+      </p>
+    </section>
+
+    <section class="card health">
+      <h2>System Health (SIMULATED)</h2>
+      <div class="health-grid">
+        <div class="meter">
+          <label for="barBattery">Battery Health</label>
+          <div class="bar" id="barBattery"><span id="barBatteryFill"></span></div>
+          <span class="pct" id="pctBattery">100%</span>
+        </div>
+        <div class="meter">
+          <label for="barAvionics">Avionics Health</label>
+          <div class="bar" id="barAvionics"><span id="barAvionicsFill"></span></div>
+          <span class="pct" id="pctAvionics">0%</span>
+        </div>
+        <div class="meter">
+          <label for="barPayload">Payload Health</label>
+          <div class="bar" id="barPayload"><span id="barPayloadFill"></span></div>
+          <span class="pct" id="pctPayload">0%</span>
+        </div>
+        <div class="meter">
+          <label for="barComms">Communications Health</label>
+          <div class="bar" id="barComms"><span id="barCommsFill"></span></div>
+          <span class="pct" id="pctComms">0%</span>
+        </div>
+        <div class="meter">
+          <label for="barNav">Navigation Health</label>
+          <div class="bar" id="barNav"><span id="barNavFill"></span></div>
+          <span class="pct" id="pctNav">0%</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>
+      UAV Concept Visualization Lab — documentation dashboard. All telemetry values are marked
+      SIMULATED. This is a visual interface demonstration; nothing here connects to any real
+      aircraft or control hardware.
+    </p>
+    <p class="footer-links">
+      Project: <a href="https://github.com/Js-Polaris/Students-Poll">github.com/Js-Polaris/Students-Poll</a>
+      · <a href="../../README.md">README.md</a>
+      · <a href="../../docs/concept_overview.md">Concept overview</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
