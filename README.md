@@ -107,7 +107,7 @@ created files are linked to your GitHub. To push:
 ```bash
 git -C UAV_Concept_Lab add -A
 git -C UAV_Concept_Lab commit -m "Initial UAV Concept Visualization Lab — conceptual assets"
-git -C UAV_Concept_Lab push -u origin main
+git -C UAV_Concept_Lab push -u origin master
 ```
 
 (If `main` is not the right default branch on the remote, use the branch that exists
