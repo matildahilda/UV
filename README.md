@@ -96,28 +96,18 @@ python simulation/data_source.py      # simulation/telemetry_sim.json (simulated
 
 ## GitHub link
 
-Your GitHub links found on your machine:
+This project is now linked to your GitHub — **https://github.com/matildahilda/UV**
+(repo name: `UV`), created with `gh repo create UV --public --source=... --push`.
+The Students-Poll repo is no longer associated with this project.
 
-- **Repo:** **https://github.com/Js-Polaris/Students-Poll** (`Group_one/.git/config`)
+Other GitHub links found on your machine:
+
 - **Portfolio:** **https://github.com/matilda** (`yr1/Algorithms/portifolio.html`)
 
-This project is git-initialized with `origin` set to the Students-Poll repo, so the
-created files are linked to your GitHub. To push:
+The project files are pushed to the new repo. To re-run the push:
 
 ```bash
-git -C UAV_Concept_Lab add -A
-git -C UAV_Concept_Lab commit -m "Initial UAV Concept Visualization Lab — conceptual assets"
-git -C UAV_Concept_Lab push -u origin master
-```
-
-(If `main` is not the right default branch on the remote, use the branch that exists
-there, e.g. `master`.)
-
-If the Students-Poll repo is not the right home for this lab, create a new repo on
-GitHub and point the remote there:
-
-```bash
-git -C UAV_Concept_Lab remote set-url origin https://github.com/<your-user>/<new-repo>.git
+git -C UAV_Concept_Lab push origin master
 ```
 
 ## Limitations (honest scope)
