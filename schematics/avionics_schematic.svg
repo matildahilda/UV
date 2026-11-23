@@ -44,54 +44,54 @@
 <line x1="0" y1="560" x2="1100" y2="560" stroke="#173A52" stroke-width="0.5" opacity="0.35"/>
 <text x="30" y="34" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#E6F3FF" opacity="0.9" letter-spacing="1.5">UAV CONCEPT VISUALIZATION LAB — AVIONICS / SYSTEM SCHEMATIC (SIMULATED, CONCEPTUAL)</text>
 <text x="30" y="54" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#7D9FB8" opacity="0.9" letter-spacing="1.5">High-level avionics block schematic — conceptual, non-operational</text>
-<rect x="46" y="160" width="240" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
-<text x="166.0" y="196.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#E6F3FF" opacity="0.95">Battery (Conceptual)</text>
-<text x="166.0" y="216.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">12.6 V — conceptual</text>
-<rect x="302" y="160" width="240" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
-<text x="422.0" y="196.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#E6F3FF" opacity="0.95">Power Dist / BMS (Concept)</text>
-<text x="422.0" y="216.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">smart distribution</text>
-<rect x="558" y="160" width="240" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
-<text x="678.0" y="196.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#E6F3FF" opacity="0.95">Flight Controller (Concept)</text>
-<text x="678.0" y="216.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">nav &amp; control logic</text>
-<rect x="814" y="160" width="240" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
-<text x="934.0" y="196.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#E6F3FF" opacity="0.95">GPS / GNSS Nav (Concept)</text>
-<text x="934.0" y="216.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">position fix</text>
-<rect x="46" y="300" width="240" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
-<text x="166.0" y="336.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#E6F3FF" opacity="0.95">Sensor Bay (Concept)</text>
-<text x="166.0" y="356.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">observation sensors</text>
-<rect x="302" y="300" width="240" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
-<text x="422.0" y="336.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#E6F3FF" opacity="0.95">Telemetry Data Bus (Concept)</text>
-<text x="422.0" y="356.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">status uplink</text>
-<rect x="558" y="300" width="240" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
-<text x="678.0" y="336.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#E6F3FF" opacity="0.95">Actuators (Concept)</text>
-<text x="678.0" y="356.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">motors, ESCs, servos — conceptual</text>
-<rect x="814" y="300" width="240" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
-<text x="934.0" y="336.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#E6F3FF" opacity="0.95">Airframe</text>
-<text x="934.0" y="356.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">conceptual structure</text>
-<line x1="166.0" y1="245" x2="422.0" y2="245" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
-<polygon points="422.0,245 414,249 414,241" fill="#E6F3FF" opacity="0.9"/>
-<text x="294" y="241" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#A8D6F0" opacity="0.9">provides power</text>
-<line x1="422.0" y1="245" x2="678.0" y2="245" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
-<polygon points="678.0,245 670,249 670,241" fill="#E6F3FF" opacity="0.9"/>
-<text x="550" y="241" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#A8D6F0" opacity="0.9">powers avionics</text>
-<line x1="678.0" y1="245" x2="934.0" y2="245" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
-<polygon points="934.0,245 926,249 926,241" fill="#E6F3FF" opacity="0.9"/>
-<text x="806" y="241" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#A8D6F0" opacity="0.9">sends commands</text>
-<line x1="678.0" y1="200" x2="166.0" y2="340" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
-<polygon points="166.0,340 173,334 175,342" fill="#E6F3FF" opacity="0.9"/>
-<text x="422" y="266" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#A8D6F0" opacity="0.9">data + power</text>
-<line x1="678.0" y1="200" x2="422.0" y2="340" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
-<polygon points="422.0,340 427,333 431,340" fill="#E6F3FF" opacity="0.9"/>
-<text x="550" y="266" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#A8D6F0" opacity="0.9">publishes status</text>
-<line x1="678.0" y1="200" x2="678.0" y2="340" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
-<polygon points="678.0,340 674,332 682,332" fill="#E6F3FF" opacity="0.9"/>
-<text x="678" y="266" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#A8D6F0" opacity="0.9">control commands</text>
-<line x1="166.0" y1="290" x2="934.0" y2="290" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
-<polygon points="934.0,290 926,294 926,286" fill="#E6F3FF" opacity="0.9"/>
-<text x="550" y="286" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#A8D6F0" opacity="0.9">mounted on airframe</text>
-<line x1="678.0" y1="290" x2="934.0" y2="290" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
-<polygon points="934.0,290 926,294 926,286" fill="#E6F3FF" opacity="0.9"/>
-<text x="806" y="286" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#A8D6F0" opacity="0.9">attached to airframe</text>
+<rect x="46" y="150" width="220" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
+<text x="156.0" y="186.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#E6F3FF" opacity="0.95">Battery (Conceptual)</text>
+<text x="156.0" y="206.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">12.6 V — conceptual</text>
+<rect x="306" y="150" width="220" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
+<text x="416.0" y="186.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#E6F3FF" opacity="0.95">Power Dist / BMS (Concept)</text>
+<text x="416.0" y="206.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">smart distribution</text>
+<rect x="566" y="150" width="220" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
+<text x="676.0" y="186.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#E6F3FF" opacity="0.95">Flight Controller (Concept)</text>
+<text x="676.0" y="206.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">nav &amp; control logic</text>
+<rect x="826" y="150" width="220" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
+<text x="936.0" y="186.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#E6F3FF" opacity="0.95">Actuators (Concept)</text>
+<text x="936.0" y="206.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">motors, ESCs, servos — conceptual</text>
+<rect x="46" y="310" width="220" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
+<text x="156.0" y="346.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#E6F3FF" opacity="0.95">Sensor Bay (Concept)</text>
+<text x="156.0" y="366.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">observation sensors</text>
+<rect x="306" y="310" width="220" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
+<text x="416.0" y="346.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#E6F3FF" opacity="0.95">Telemetry Data Bus (Concept)</text>
+<text x="416.0" y="366.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">status uplink</text>
+<rect x="566" y="310" width="220" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
+<text x="676.0" y="346.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#E6F3FF" opacity="0.95">GPS / GNSS Nav (Concept)</text>
+<text x="676.0" y="366.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">position fix</text>
+<rect x="826" y="310" width="220" height="80" rx="6" stroke="#E6F3FF" stroke-width="1.5" fill="#10293D"/>
+<text x="936.0" y="346.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#E6F3FF" opacity="0.95">Airframe</text>
+<text x="936.0" y="366.0" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">conceptual structure</text>
+<line x1="156.0" y1="190" x2="416.0" y2="190" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
+<polygon points="416.0,190 408,194 408,186" fill="#E6F3FF" opacity="0.9"/>
+<text x="286" y="140" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">provides power</text>
+<line x1="416.0" y1="190" x2="676.0" y2="190" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
+<polygon points="676.0,190 668,194 668,186" fill="#E6F3FF" opacity="0.9"/>
+<text x="546" y="140" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">powers avionics</text>
+<line x1="676.0" y1="190" x2="936.0" y2="190" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
+<polygon points="936.0,190 928,194 928,186" fill="#E6F3FF" opacity="0.9"/>
+<text x="806" y="140" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">control commands</text>
+<line x1="676.0" y1="190" x2="156.0" y2="350" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
+<polygon points="156.0,350 162,344 165,351" fill="#E6F3FF" opacity="0.9"/>
+<text x="414" y="262" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">data + power</text>
+<line x1="676.0" y1="190" x2="416.0" y2="350" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
+<polygon points="416.0,350 421,342 425,349" fill="#E6F3FF" opacity="0.9"/>
+<text x="542" y="263" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">publishes status</text>
+<line x1="676.0" y1="190" x2="676.0" y2="350" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
+<polygon points="676.0,350 672,342 680,342" fill="#E6F3FF" opacity="0.9"/>
+<text x="668" y="270" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">navigation data</text>
+<line x1="936.0" y1="190" x2="936.0" y2="350" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
+<polygon points="936.0,350 932,342 940,342" fill="#E6F3FF" opacity="0.9"/>
+<text x="928" y="270" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">attached to airframe</text>
+<line x1="156.0" y1="350" x2="936.0" y2="350" stroke="#E6F3FF" stroke-width="1.2" opacity="0.9"/>
+<polygon points="936.0,350 928,354 928,346" fill="#E6F3FF" opacity="0.9"/>
+<text x="546" y="300" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#A8D6F0" opacity="0.9">mounted on airframe</text>
 <text x="30" y="548" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#7D9FB8" opacity="0.9" letter-spacing="1.5">All blocks are conceptual/simulated — not real avionics specs.</text>
 <text x="30" y="566" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#7D9FB8" opacity="0.9" letter-spacing="1.5">SIMULATED / FICTIONAL — NOT REAL AVIONICS DATA (conceptual)</text>
 </svg>
