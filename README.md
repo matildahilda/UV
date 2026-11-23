@@ -29,7 +29,9 @@ UAV_Concept_Lab/
 │   └── uav_concept.stl                    # Conceptual UAV 3D model (STL, meters)
 ├── schematics/                            # Schematic designs
 │   ├── avionics_schematic.svg             # Avionics / system block schematic
-│   └── mission_profile_schematic.svg      # Mission profile schematic (simulated)
+│   ├── mission_profile_schematic.svg      # Mission profile schematic (simulated)
+│   ├── pcb_schematic.svg                  # Custom PCB circuit schematic (board outline, traces, footprints)
+│   └── wiring_schematic.svg               # Wiring diagram (UAV concept wiring)
 ├── simulation/                            # Simulation & demonstration
 │   ├── dashboard/
 │   │   ├── index.html                     # Simulated aircraft status dashboard
@@ -111,6 +113,12 @@ python simulation/data_source.py      # simulation/telemetry_sim.json (simulated
   (battery → actuators → airframe; conceptual relationships).
 - `schematics/mission_profile_schematic.svg` — conceptual time–altitude mission profile
   (takeoff, climb, cruise, loiter, approach, landing). All values SIMULATED/fictional.
+- `schematics/wiring_schematic.svg` — wiring diagram for the UAV concept: labeled
+  wires connecting Battery, Power Dist/BMS, Flight Controller, Actuators, Sensor Bay,
+  Telemetry Bus, GPS/GNSS Nav and Airframe (schematic level).
+- `schematics/pcb_schematic.svg` — custom PCB circuit schematic: board outline with
+  copper traces, simplified component footprints (BAT, PD, FC, TB, SB, GPS, ESC,
+  Airframe) and drill holes. Schematic level; not a manufacturable design.
 
 Regenerate:
 
